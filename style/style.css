@@ -44,8 +44,36 @@ button {
   color: #333;
 }
 
+button:hover {
+  background-color: #eaeaea;
+}
+
+.operator {
+  color: #337cac;
+}
+
+.clear {
+  background-color: #f0595f;
+  border-color: #b0353a;
+  color: #fff;
+}
+
+.clear:hover {
+  background-color: #f17377;
+}
+.equal-sing {
+  background-color: #4e9ed4;
+  border-color: #337cac;
+  color: #fff;
+}
+
+.equal-sing:hover {
+  background-color: #2e86c0;
+}
+
 .calculator-keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
+  padding: 20px;
 }
